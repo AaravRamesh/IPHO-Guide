@@ -11,6 +11,7 @@
     "resolveJsonModule": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "ignoreDeprecations": "6.0",
     "skipLibCheck": true,
     "strict": false,
     "strictNullChecks": true
