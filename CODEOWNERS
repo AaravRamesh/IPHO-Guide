@@ -1,0 +1,11 @@
+# https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-code-owners
+
+/content/ @bqi343
+/content/1_General/ @bqi343
+/content/2_Bronze/ @eysbutno @guodavid0418
+/content/3_Silver/ @eysbutno @guodavid0418
+/content/4_Gold/ @eysbutno @guodavid0418
+/content/5_Plat/ @bqi343
+/content/6_Advanced/ @bqi343
+/content/extraProblems.json @eysbutno @guodavid0418
+/content/team/ @eysbutno

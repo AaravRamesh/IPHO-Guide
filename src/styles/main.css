@@ -1,0 +1,110 @@
+/* Use self-hosted Inter font files from static/Font to avoid Google Fonts requests. */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/Font/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/Font/Inter-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url('/Font/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
+@import 'tailwindcss';
+@import './theme.css' layer(base);
+
+
+@theme {
+  --color-dark-surface: #101010; /* updated surface base */
+  /* replace white-based emphasis with cream-based emphasis */
+  --color-dark-high-emphasis: rgba(244, 237, 234, 0.90);
+  --color-dark-med-emphasis: rgba(244, 237, 234, 0.68);
+  --color-dark-disabled-emphasis: rgba(244, 237, 234, 0.42);
+}
+
+
+@import './generalStyles.css' layer(components);
+@import './components.css' layer(components);
+@import './syllabus.css' layer(components);
+@import './link-with-progress.css' layer(components);
+@import './anchor.css' layer(utilities);
+@import './animations.css' layer(utilities);
+
+
+@source "../../src/components";
+@source "../../src/context";
+@source "../../src/hooks";
+@source "../../src/models";
+@source "../../src/pages";
+@source "../../src/stories";
+@source "../../src/templates";
+@source "../../content";
+@source "../../.storybook/preview.js";
+
+
+@config "../../tailwind.config.js";
+
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+    font-family: var(--font-family);
+  }
+
+
+  button,
+  [role='button'] {
+    cursor: pointer;
+  }
+  button:disabled,
+  [role='button']:disabled {
+    cursor: default;
+  }
+
+  ::selection {
+    background: #f5f0fa;
+    color: #171413;
+  }
+
+  ::-moz-selection {
+    background: #f5f0fa;
+    color: #171413;
+  }
+
+  .markdown ::selection {
+    background: #f5f0fa;
+    color: #171413;
+  }
+
+  .markdown ::-moz-selection {
+    background: #f5f0fa;
+    color: #171413;
+  }
+}
+
