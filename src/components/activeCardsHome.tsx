@@ -87,7 +87,7 @@ const ActiveCardsHome = () => {
       <div className="h-16 md:h-20 2xl:h-36"></div>
       <div className="px-4 sm:px-6 lg:px-8 2xl:px-16">
         <h2 className={headerClasses} style={{ color: VANILLA }}>
-          Built by the USAMO Guide community.
+          Built by the IPHO Guide community.
         </h2>
         <div className="h-2 md:h-4"></div>
         <p

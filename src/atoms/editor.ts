@@ -364,7 +364,7 @@ export const createNewPageFileAtom = atom(
     const titleFallback = fileName.replace(/_/g, ' ').trim();
     const title = payload.title?.trim() || titleFallback || 'New Page';
     const id = payload.id?.trim() || slugify(title) || slugify(fileName);
-    const author = payload.author?.trim() || 'USAMO Guide Team';
+    const author = payload.author?.trim() || 'IPHO Guide Team';
     const description =
       payload.description?.trim() || 'TODO: add a short description.';
     const prerequisites = payload.prerequisites ?? [];

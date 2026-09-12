@@ -1,10 +1,10 @@
-![USAMO Guide](./src/assets/social-media-image.jpg)
+![IPHO Guide](./src/assets/social-media-image.jpg)
 
-# USAMO Guide
+# IPHO Guide
 
 A free, open-source platform for **AMC, AIME, and USAMO preparation**.
 
-USAMO Guide aims to provide a **structured pathway from AMC → AIME → USAMO**, combining curated learning resources, regular contests, and a contributor-driven community.
+IPHO Guide aims to provide a **structured pathway through olympiad mathematics**, combining curated learning resources, regular contests, and a contributor-driven community.
 
 Most olympiad students currently rely on scattered resources across multiple sites. Our goal is to build a **single platform where students can learn, practice, compete, and contribute.**
 
@@ -33,7 +33,7 @@ We plan to host **recurring online contests** with:
 This allows students to benchmark their progress and compete internationally.
 
 ### Community and Contributors
-USAMO Guide is **community-built**.
+IPHO Guide is **community-built**.
 
 Contributors can help by:
 
@@ -55,7 +55,7 @@ on, leave a comment, and submit a Pull Request!
 
 ## Our Team
 
-The USAMO Guide is run by the USAMO Guide team. We're looking for content
+The IPHO Guide is run by the IPHO Guide team. We're looking for content
 authors to help us improve the Guide. 
 
 Join the Discord Server to meet us! : https://discord.gg/PMyJgWjAz9
@@ -86,6 +86,6 @@ Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 ## Acknowledgements
 
-We would like to express our sincere appreciation to the **USACO Guide** team and contributors. Their open-source work served as an important reference while building USAMO Guide. The structure, engineering decisions, and overall philosophy behind the project were incredibly helpful as we developed our own platform.
+We would like to express our sincere appreciation to the **USACO Guide** team and contributors. Their open-source work served as an important reference while building IPHO Guide. The structure, engineering decisions, and overall philosophy behind the project were incredibly helpful as we developed our own platform.
 
 In particular, the availability of their codebase made it significantly easier for us to understand how a large educational resource platform can be organized and maintained. Many aspects of our development process were informed by the design patterns and infrastructure used in USACO Guide. We are grateful to their team for openly sharing their work and helping make projects like this possible.

@@ -173,7 +173,7 @@ export default function EditProblemPage(props: Props) {
                   onClick={() => setIsSearchOpen(true)}
                   className="btn"
                 >
-                  Import Problem From USAMO Guide
+                  Import Problem From IPHO Guide
                 </button>
               </div>
               <div className="sm:col-span-4">
@@ -182,7 +182,7 @@ export default function EditProblemPage(props: Props) {
                     <CheckIcon
                       className={'mr-2 inline h-5 w-5 text-green-700'}
                     />
-                    This problem is linked to a USAMO Guide Problem (
+                    This problem is linked to an IPHO Guide Problem (
                     <button
                       className={'text-blue-700 hover:underline'}
                       onClick={() => editProblem({ guideProblemId: null })}
@@ -194,8 +194,8 @@ export default function EditProblemPage(props: Props) {
                 ) : (
                   <b className="block text-sm font-medium text-gray-700 dark:text-gray-200">
                     <XIcon className={'mr-1 inline h-4 w-4 text-gray-700'} />
-                    This problem is not linked to a USAMO Guide Problem. To link
-                    this problem to a USAMO Guide Problem, import a problem from
+                    This problem is not linked to an IPHO Guide Problem. To link
+                    this problem to an IPHO Guide Problem, import a problem from
                     above.
                   </b>
                 )}

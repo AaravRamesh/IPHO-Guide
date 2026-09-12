@@ -149,7 +149,7 @@ serve(async req => {
       (source === 'other'
         ? `**Warning: The source of this problem is currently set to \`other\`. You must correct the problem source and the solution before merging.**\n`
         : '') +
-      `*This PR was automatically generated from a user-submitted problem suggestion on the USAMO Guide.*`;
+      `*This PR was automatically generated from a user-submitted problem suggestion on the IPHO Guide.*`;
 
     const githubHeaders = {
       Authorization: `token ${githubToken}`,

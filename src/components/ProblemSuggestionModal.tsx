@@ -328,7 +328,7 @@ export default function ProblemSuggestionModal({
           </h3>
           <div className="dark:text-dark-high-emphasis mt-2 text-sm leading-5 text-green-700">
             <p>
-              Thanks for helping to improve the USAMO Guide. You can track the
+              Thanks for helping to improve the IPHO Guide. You can track the
               progress of your suggestion here:{' '}
               <a
                 href={createdIssueLink ?? undefined}
@@ -404,7 +404,7 @@ export default function ProblemSuggestionModal({
                 </p>
               ) : (
                 <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-                  Help us improve the USAMO Guide by suggesting a problem to
+                  Help us improve the IPHO Guide by suggesting a problem to
                   add!
                   <br />
                   This will be submitted as a public{' '}

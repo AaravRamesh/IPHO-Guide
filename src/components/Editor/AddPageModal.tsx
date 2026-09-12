@@ -44,7 +44,7 @@ export default function AddPageModal(props: {
   const [title, setTitle] = useState('');
   const [pageId, setPageId] = useState('');
   const [description, setDescription] = useState('');
-  const [author, setAuthor] = useState('USAMO Guide Team');
+  const [author, setAuthor] = useState('IPHO Guide Team');
   const [prerequisites, setPrerequisites] = useState('');
   const [selectedChapter, setSelectedChapter] = useState('');
   const [customChapter, setCustomChapter] = useState('');

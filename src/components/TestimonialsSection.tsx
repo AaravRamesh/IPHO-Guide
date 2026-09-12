@@ -16,7 +16,7 @@ const testimonials: Testimonial[] = [
     name: 'Sohil Rathi',
     role: 'Author of OmegaLearn',
     content:
-      'The USAMO Guide is an incredible resource for competitive math. The way it structures problems by difficulty and topic is exactly what students need to progress efficiently.',
+      'The IPHO Guide is an incredible resource for competitive math. The way it structures problems by difficulty and topic is exactly what students need to progress efficiently.',
   },
   {
     name: 'Alexandar',

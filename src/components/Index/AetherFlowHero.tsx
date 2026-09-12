@@ -89,7 +89,7 @@ export default function AetherFlowHero(): JSX.Element {
         <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:items-end md:gap-6">
           <div className="relative inline-block">
             <h1 className="font-mono text-6xl font-extrabold tracking-tight text-[#F5F0FA] md:text-8xl lg:text-9xl">
-              {'USAMO Guide'}
+              {'IPHO Guide'}
             </h1>
             <img
               src="/images/Titlemascot.png"

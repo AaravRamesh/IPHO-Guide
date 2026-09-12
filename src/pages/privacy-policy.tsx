@@ -25,7 +25,7 @@ export default function PrivacyPolicyPage(props: PageProps) {
             <p>Last updated: April 3, 2026</p>
 
             <p>
-              USAMO Guide ("we", "our", or "us") respects your privacy. This
+              IPHO Guide ("we", "our", or "us") respects your privacy. This
               Privacy Policy explains what information we collect, how we use
               it, and your choices.
             </p>

@@ -257,7 +257,7 @@ export default function ContactUsPage(props: PageProps) {
                       Topic
                     </legend>
                     <div className="text-sm text-[rgba(244,237,234,0.65)]">
-                      The USAMO Guide is a community project and is not
+                      The IPHO Guide is a community project and is not
                       affiliated with the MAA, AMC, AIME, USAMO, or AoPS. If
                       your question is about those organizations, please contact
                       them directly.

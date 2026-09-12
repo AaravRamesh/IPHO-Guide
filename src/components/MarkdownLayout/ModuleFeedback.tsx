@@ -21,7 +21,7 @@ export default function ModuleFeedback({
           rel="noreferrer"
           className="text-blue-600 underline dark:text-blue-300"
         >
-          USAMO Guide GitHub
+          IPHO Guide GitHub
         </a>
         . Examples: unclear sections, mislabeled problems, or broken links.
       </p>

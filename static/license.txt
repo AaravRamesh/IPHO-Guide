@@ -1060,7 +1060,7 @@ You retain ownership of your contribution. However, you cannot revoke or alter t
 
 If you do not agree to these terms, do not submit any contribution.
 
-Use of the project name ("USAMO Guide"), any associated logos, or the
+Use of the project name ("IPHO Guide"), any associated logos, or the
 maintainer's name to endorse, promote, or imply affiliation with any
 derivative work, fork, or redistribution of this project is not permitted
 without prior written consent from the maintainer. This restriction survives
@@ -1080,7 +1080,7 @@ that you are the copyright owner or authorized to act on their behalf.
 The maintainer will promptly investigate and remove or disable access to
 infringing material upon receipt of a verified notice.
 
-## USAMO Guide Educational Disclaimer
+## IPHO Guide Educational Disclaimer
 
 NOTICE: This section is a standalone notice issued by the project maintainer.
 It does not modify, supplement, or form part of the GNU Affero General Public
@@ -1088,7 +1088,7 @@ License v3.0 or the Creative Commons Attribution-NonCommercial-ShareAlike 4.0
 International License. Both of those licenses apply independently and in full
 according to their own terms.
 
-USAMO Guide is an independent educational project providing contest mathematics
+IPHO Guide is an independent educational project providing contest mathematics
 practice materials. All software and content in this repository are provided
 "as-is" and "as-available," without warranties of any kind, whether express or
 implied, including but not limited to warranties of accuracy, completeness,

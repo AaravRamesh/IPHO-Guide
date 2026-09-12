@@ -36,7 +36,7 @@ export const probSources = {
     'https://www.maa.org/math-competitions',
     'Mathematical Association of America',
   ],
-  Custom: ['https://usamo.guide/', 'Custom Problem (USAMO Guide)'],
+  Custom: ['https://usamo.guide/', 'Custom Problem (IPHO Guide)'],
 };
 
 /** Raw `interaction` object in `.problems.json` */

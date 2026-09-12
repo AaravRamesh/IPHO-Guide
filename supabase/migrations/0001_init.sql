@@ -1,4 +1,4 @@
--- Supabase schema + RLS for USAMO Guide migration
+-- Supabase schema + RLS for IPHO Guide migration
 
 create extension if not exists pgcrypto;
 

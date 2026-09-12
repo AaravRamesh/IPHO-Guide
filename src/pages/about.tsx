@@ -9,7 +9,7 @@ export default function AboutPage(props: PageProps) {
     <Layout>
       <SEO
         title="About"
-        description="Learn what USAMO Guide is, why it exists, and how we help students prepare for AMC, AIME, and USAMO."
+        description="Learn what IPHO Guide is, why it exists, and how we help students prepare for olympiad mathematics."
         image={null}
         pathname={props.path}
       />
@@ -24,10 +24,10 @@ export default function AboutPage(props: PageProps) {
         <main className="mx-auto max-w-4xl px-4 pt-10 pb-16 sm:px-6 lg:px-8">
           <header className="mb-8">
             <h1 className="text-4xl font-extrabold text-[#F4EDEA]">
-              Umm, so what is this "USAMO Guide" that everyone is talking about?
+              Umm, so what is this "IPHO Guide" that everyone is talking about?
             </h1>
             <p className="mt-3 text-lg text-[rgba(244,237,234,0.80)]">
-              USAMO Guide is a free, structured learning platform that helps
+              IPHO Guide is a free, structured learning platform that helps
               students progress from early contest problem solving to
               Olympiad-level proof writing.
             </p>
@@ -36,7 +36,7 @@ export default function AboutPage(props: PageProps) {
           <section className="space-y-4 text-lg text-[rgba(244,237,234,0.80)]">
             <h2 className="text-2xl font-bold text-[#F4EDEA]">Why do we exist / Our Philosophy</h2>
             <p>
-              What we do at USAMO Guide is take away the barriers of learning Math.  <br />
+              What we do at IPHO Guide is take away the barriers of learning Math.  <br />
               We have a chance to change the way all of us think about preparing for math olympiads. <br />
               Gatekept Resources, Unstructured Learning and Online Courses that cost $$$ have kept Learning Olympiad maths restricted away from the rest of us. <br />
               We think we have a chance to make a difference. <br />
@@ -65,7 +65,7 @@ export default function AboutPage(props: PageProps) {
               What makes us different
             </h2>
             <p>
-              USAMO Guide is made by HIGHSCHOOLERS and College Freshmen. <br /> 
+              IPHO Guide is made by HIGHSCHOOLERS and College Freshmen. <br />
               Ones that have went through the experience how it felt to try prepare for olympiads without any resources, Ones that did so super recently. <br />
               The adults who are in teaching do so for profit, They gotta earn some way or the other, don't they? We dont. We have no intention to make money off of you, We couldn't possibly gain anything by doing so. 
               The only reason we exist is to help promote equity in learning math. 

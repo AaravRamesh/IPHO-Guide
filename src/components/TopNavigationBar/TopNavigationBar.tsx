@@ -50,7 +50,7 @@ export default function TopNavigationBar({
   const resources = [
     {
       name: 'Other Useful Resources',
-      description: 'Topic-by-topic external resources curated by USAMO Guide.',
+      description: 'Topic-by-topic external resources curated by IPHO Guide.',
       href: '/other-useful-resources',
       icon: PresentationChartLineIcon,
       iconSrc: '/images/otherresourcesicon.jpg',
@@ -103,7 +103,7 @@ export default function TopNavigationBar({
       {!hidePromoBar && (
         <>
           <Banner
-            text="Join the USAMO Guide Discord Server. Regular updates are posted there!"
+            text="Join the IPHO Guide Discord Server. Regular updates are posted there!"
             action="Let me Join!"
             link="https://discord.gg/WZge4DWUuy"
           />

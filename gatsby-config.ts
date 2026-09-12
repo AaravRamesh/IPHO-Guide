@@ -23,8 +23,8 @@ const siteUrl = (
 ).replace(/\/$/, '');
 
 const siteMetadata = {
-  title: `USAMO Guide - Olympiad Mathematics Learning Platform`,
-  siteName: `USAMO Guide`,
+  title: `IPHO Guide - Olympiad Mathematics Learning Platform`,
+  siteName: `IPHO Guide`,
   description: `Free, comprehensive preparation platform for AMC 8, AMC 10/12, AIME, and USAMO with lessons, problem sets, mock exams, and full solutions.`,
   author: `@usamoguide`,
   siteUrl,
@@ -83,7 +83,7 @@ const plugins = [
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: `USAMO Guide`,
+      name: `IPHO Guide`,
       short_name: `USAMO`,
       start_url: `/`,
       background_color: `#0f172a`,

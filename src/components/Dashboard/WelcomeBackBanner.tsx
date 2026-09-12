@@ -23,7 +23,7 @@ export default function WelcomeBackBanner({
           >
             {lastViewedModuleURL
               ? 'Welcome Back!'
-              : 'Welcome to the USAMO Guide!'}
+              : 'Welcome to the IPHO Guide!'}
           </h3>
           <div className="mt-2 font-medium" style={{ color: '#F0C2FF' }}>
             <p>

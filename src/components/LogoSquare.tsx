@@ -12,7 +12,7 @@ export default function LogoSquare({
     <img
       className={classNames('inline-block', className)}
       src={logoSrc}
-      alt="USAMO Guide"
+      alt="IPHO Guide"
     />
   );
 }

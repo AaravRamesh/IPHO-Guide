@@ -431,7 +431,7 @@ export default function IndexPage({ path }): JSX.Element {
                     className="mx-auto max-w-2xl text-center text-lg leading-relaxed md:text-xl"
                     style={{ color: TEXT_SECONDARY }}
                   >
-                    USAMO Guide is a student-run community dedicated to olympiad
+                    IPHO Guide is a student-run community dedicated to olympiad
                     mathematics. Join us to write lessons, curate problem sets,
                     and grow as a mentor alongside fellow contest enthusiasts.
                   </p>
@@ -576,7 +576,7 @@ export default function IndexPage({ path }): JSX.Element {
                         className="text-base leading-6"
                         style={{ color: TEXT_SECONDARY }}
                       >
-                        Nope. USAMO Guide is built by the community, for the community. It's our best attempt at organizing what actually works for AMC/AIME/USAMO prep, not something blessed by the MAA :/
+                        Nope. IPHO Guide is built by the community, for the community. It's our best attempt at organizing what actually works for olympiad prep, not something blessed by the MAA :/
                         Think of it as notes that are passed down and refined by people who've been through the process, constantly getting better as more people chip in.
                       </p>
                     </FaqCard>
@@ -720,11 +720,11 @@ export default function IndexPage({ path }): JSX.Element {
               <div className="flex items-center gap-3">
                 <img
                   src="/images/Test_logo.png"
-                  alt="USAMO Guide"
+                  alt="IPHO Guide"
                   className="h-11 w-11 shrink-0 object-cover"
                 />
                 <span className="text-xl font-semibold tracking-tight text-[#F4EDEA]">
-                  USAMO Guide
+                  IPHO Guide
                 </span>
               </div>
 
@@ -733,7 +733,7 @@ export default function IndexPage({ path }): JSX.Element {
               </h2>
 
               <p className="mt-5 max-w-lg text-lg leading-8 text-[#B8B4C5]">
-                USAMO Guide brings lessons, resources, problem sets, and
+                IPHO Guide brings lessons, resources, problem sets, and
                 community support into one place for AMC, AIME, and Olympiad
                 prep.
               </p>
@@ -847,7 +847,7 @@ export default function IndexPage({ path }): JSX.Element {
           </div>
 
           <div className="mt-10 flex flex-wrap items-center justify-end gap-4 text-sm text-[#8E8AA1]">
-            <span>&copy; {new Date().getFullYear()} USAMO Guide - All rights reserved</span>
+            <span>&copy; {new Date().getFullYear()} IPHO Guide - All rights reserved</span>
             <div className="flex items-center gap-2">
               {footerSocialLinks.map(({ label, href, icon: Icon }) => (
                 <a
@@ -889,7 +889,7 @@ export default function IndexPage({ path }): JSX.Element {
             fill="#F7F4EC"
             fontFamily="inherit"
           >
-            USAMO Guide
+            IPHO Guide
           </text>
         </svg>
 

@@ -8,10 +8,10 @@ export default function Logo(): JSX.Element {
       <img
         className="h-9 w-9 shrink-0"
         src={logoSrc}
-        alt="USAMO Guide"
+        alt="IPHO Guide"
       />
       <span className="text-xl font-bold tracking-tight text-black dark:text-gray-300">
-        USAMO Guide
+        IPHO Guide
       </span>
     </div>
   );

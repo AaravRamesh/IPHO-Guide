@@ -25,7 +25,7 @@ export default function TermsOfServicePage(props: PageProps) {
             <p>Last updated: April 3, 2026</p>
 
             <p>
-              By accessing or using USAMO Guide ("we", "our", or "us"), you
+              By accessing or using IPHO Guide ("we", "our", or "us"), you
               agree to these Terms of Service.
             </p>
 

@@ -399,7 +399,7 @@ export default function OtherUsefulResourcesPage(props: PageProps) {
             </h1>
             <p className="mx-auto mt-6 max-w-3xl text-base leading-7 text-[rgba(244,237,234,0.72)] sm:text-lg">
               This page collects strong external resources for specific contest
-              math topics. Use it as a companion to USAMO Guide when you want
+              math topics. Use it as a companion to IPHO Guide when you want
               extra explanations, alternate problem sets, or deeper dives.
             </p>
           </header>
